@@ -1,0 +1,10 @@
+CREATE TABLE product_sb(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    price NUMERIC(10,2),
+    quantity INTEGER,
+    buyDate DATE,
+    sellDate DATE,
+    
+    amoun DOUBLE PRECISION
+)
