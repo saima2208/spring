@@ -53,7 +53,7 @@ public class ProductController {
 		service.deleteById(id);
 	}
 
-	@GetMapping("/byName")
+	@GetMapping("byName")
 	public List<Product> getProductByName(@RequestParam String name) {
 		List<Product> byName = service.getProductByName(name);
 		return byName;

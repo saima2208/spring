@@ -8,3 +8,12 @@ CREATE TABLE product_sb(
     
     amoun DOUBLE PRECISION
 )
+
+
+   CREATE TABLE product_sb(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    price NUMERIC(10,2),
+    quantity INTEGER,
+    model VARCHAR(255)
+)
